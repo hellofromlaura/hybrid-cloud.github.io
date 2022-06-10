@@ -17,7 +17,7 @@ h2 {
     font-size: 3.8rem;
     line-height: 1.211;
 }
-h3 {
+h3, li  {
     font-size: 2.8rem;
     line-height: 1.286;
 }
@@ -29,12 +29,11 @@ p {
     font-size: 1.6rem;
     line-height: 1.27;
 }
-li {
-    font-size: 1.8rem;
-    line-height: 1.27;
-}
 h1, h2, h3, h4, p, li {
     font-weight: 300;
+}
+ul {
+    width: 441px;
 }
 .hero-title {
     font-size: 4.6rem
@@ -148,6 +147,7 @@ img {
 
 /* reason */
 .reason > h3 {
+    max-width: 730px;
     text-align: center;
 }
 .reason > .flex {
@@ -239,12 +239,16 @@ img {
 .outro {
     text-align: center;
 }
+.outro > h4 {
+    max-width: 730px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 @media only screen and (max-width: 1100px) {
     .hero-title {
         font-size: 3.4rem;
     }
-
 }
 
 @media only screen and (max-width: 995px) {
@@ -256,7 +260,7 @@ img {
         font-size: 2.6rem;
         line-height: 1.214;
     }
-    h3 {
+    h3, li {
         font-size: 2rem;
         line-height: 1.273;
     }
@@ -264,9 +268,12 @@ img {
         font-size: 1.6rem;
         line-height: 1.2;
     }
-    p, li {
+    p {
         font-size: 1.4rem;
         line-height: 1.5
+    }
+    ul {
+        width: 315px;
     }
     .button {
         font-size: 25px;
@@ -348,6 +355,9 @@ img {
     }
 }
 @media only screen and (max-width: 720px) {
+    ul {
+        width: 315px;
+    }
     .flex {
         flex-direction: column;
     }
@@ -427,7 +437,7 @@ img {
         font-size:2.4rem;
         line-height:1.167;
     }
-    h3 {
+    h3, li {
         font-size:2.0rem;
         line-height:1.2;
     }
@@ -435,7 +445,7 @@ img {
         font-size:2.0rem;
         line-height:1.2;
     }
-    p, li {
+    p {
         font-size:1.6rem;
         line-height:1.375;
     }
@@ -475,6 +485,9 @@ img {
     .intro-img-inner {
         width: 260px;
         margin: -279px 0 0 44px;
+    }
+    .reason > .flex > .reason-imgs {
+        width: 350px;
     }
     .intro-img-check {
         width: 40px;
