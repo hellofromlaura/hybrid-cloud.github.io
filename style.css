@@ -148,6 +148,8 @@ img {
 /* reason */
 .reason > h3 {
     max-width: 730px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
 }
 .reason > .flex {
