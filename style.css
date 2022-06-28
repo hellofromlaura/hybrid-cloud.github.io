@@ -12,31 +12,38 @@ body {
 h1 {
     font-size: 4.6rem;
     line-height: 1.217;
+    margin: 0;
 }
 h2 {
-    font-size: 3.8rem;
+    font-size: 60px;
     line-height: 1.211;
 }
 h3, li  {
-    font-size: 2.8rem;
+    font-size: 50px;
     line-height: 1.286;
+    margin: 45px 0;
 }
 h4 {
-    font-size: 2rem;
+    font-size: 35px;
     line-height: 1.27;
+    margin: 40px 0; 
 }
 p {
-    font-size: 1.6rem;
+    font-size: 28px;
     line-height: 1.27;
+    margin: 28px 0;
 }
 h1, h2, h3, h4, p, li {
     font-weight: 300;
+    color: #424445;
 }
 ul {
-    width: 441px;
+    width: 500px;
+    list-style-type: disc;
 }
 .hero-title {
-    font-size: 4.6rem
+    font-size: 85px;
+    margin: 0px;
 }
 img {
     display: block;
@@ -67,6 +74,7 @@ a[href].btn {
     margin: 60px auto 20px;
     padding: 30px 60px;
     font-size: 30px;
+    font-weight: 300;
     color: #fff;
     border-radius: 50px;
     background-color: #0d274d;
@@ -149,7 +157,7 @@ a[href].btn {
 
 /* reason */
 .reason > h3 {
-    max-width: 776px;
+    max-width: 850px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -182,7 +190,7 @@ a[href].btn {
     border-radius: 50%;
 }
 .reason-text {
-    width: 60%;
+    width: 65%;
 }
 .reason-text > h3,
 .reason-text > h4 {
@@ -250,8 +258,20 @@ a[href].btn {
 }
 
 @media only screen and (max-width: 1100px) {
+    h2 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 45px;
+    }
+    h4 {
+        font-size: 30px;
+    }
     .hero-title {
-        font-size: 3.4rem;
+        font-size: 56px;
+    }
+    .ul {
+        width: 55%;
     }
 }
 
@@ -261,30 +281,30 @@ a[href].btn {
         line-height: 1.222;
     }
     h2 {
-        font-size: 2.6rem;
+        font-size: 45px;
         line-height: 1.214;
     }
     h3, li {
-        font-size: 2rem;
+        font-size: 30px;
         line-height: 1.273;
     }
     h4 {
-        font-size: 1.6rem;
+        font-size: 25px;
         line-height: 1.2;
     }
     p {
-        font-size: 1.4rem;
+        font-size: 20px;
         line-height: 1.5
     }
     ul {
-        width: 315px;
+        width: 42%;
     }
     .btn {
         font-size: 25px;
         padding: 20px 50px;
     }
     .hero-title {
-        font-size: 3.6rem
+        font-size: 40px;
     }
     .container {
         padding: 55px 0px;
@@ -434,27 +454,30 @@ a[href].btn {
 
 @media only screen and (max-width: 596px) {
     h1 {
-        font-size:2.8rem;
-        line-height:1.214;
+        font-size: 45px;
+        line-height: 1.214;
     }
     h2 {
-        font-size:2.4rem;
-        line-height:1.167;
+        font-size: 40px;
+        line-height: 1.167;
     }
     h3, li {
-        font-size:2.0rem;
-        line-height:1.2;
+        font-size: 35px;
+        line-height: 1.2;
     }
     h4 {
-        font-size:2.0rem;
-        line-height:1.2;
+        font-size: 32px;
+        line-height: 1.2;
     }
     p {
-        font-size:1.6rem;
-        line-height:1.375;
+        font-size: 26px;
+        line-height: 1.375;
+    }
+    ul {
+        width: 75%;
     }
     .hero-title {
-        font-size:2.8rem
+        font-size: 2.8rem
     }
     .container {
         padding: 40px 0px;
