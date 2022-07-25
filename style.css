@@ -201,6 +201,12 @@ a[href].btn {
 .solution > h3 {
     text-align: center;
 }
+.solution > p {
+    font-size: 18px;
+    line-height: 1.27;
+    margin: 0;
+    text-align: center;
+}
 .solution > .flex {
     justify-content: space-around;
     align-items: center;

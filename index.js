@@ -57,12 +57,12 @@ var bar3 = new ProgressBar.Circle(circle3, {
 
 document.addEventListener('scroll', function () {
   if (isInViewport(box1)) {
-    bar1.animate(0.38);  // Number from 0.0 to 1.0
+    bar1.animate(0.42);  // Number from 0.0 to 1.0
   }
   if (isInViewport(box2)) {
     bar2.animate(0.79);  // Number from 0.0 to 1.0
   }
   if (isInViewport(box3)) {
-    bar3.animate(0.58);  // Number from 0.0 to 1.0
+    bar3.animate(0.53);  // Number from 0.0 to 1.0
   }
 });
